@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllureReportInPOM" duration-ms="146122" started-at="2019-06-17T06:57:14Z" finished-at="2019-06-17T06:59:40Z">
+    <groups>
+    </groups>
+    <test name="Tests on YOU portal" duration-ms="146122" started-at="2019-06-17T06:57:14Z" finished-at="2019-06-17T06:59:40Z">
+      <class name="com.YOU.qa.tests.InfogramPageTest">
+        <test-method status="PASS" signature="preRequisites()[pri:0, instance:com.YOU.qa.tests.InfogramPageTest@48c35007]" name="preRequisites" is-config="true" duration-ms="31269" started-at="2019-06-17T06:58:55Z" finished-at="2019-06-17T06:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisites -->
+        <test-method status="PASS" signature="userNameOnInfogramPageTest()[pri:0, instance:com.YOU.qa.tests.InfogramPageTest@48c35007]" name="userNameOnInfogramPageTest" duration-ms="12584" started-at="2019-06-17T06:59:27Z" finished-at="2019-06-17T06:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameOnInfogramPageTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.YOU.qa.tests.InfogramPageTest@48c35007]" name="quitBrowser" is-config="true" duration-ms="713" started-at="2019-06-17T06:59:39Z" finished-at="2019-06-17T06:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.YOU.qa.tests.InfogramPageTest -->
+      <class name="com.YOU.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="preRequisites()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="preRequisites" is-config="true" duration-ms="27746" started-at="2019-06-17T06:57:14Z" finished-at="2019-06-17T06:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisites -->
+        <test-method status="PASS" signature="isYOULogoDisplayedTest()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="isYOULogoDisplayedTest" duration-ms="122" started-at="2019-06-17T06:57:42Z" finished-at="2019-06-17T06:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isYOULogoDisplayedTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="quitBrowser" is-config="true" duration-ms="742" started-at="2019-06-17T06:57:42Z" finished-at="2019-06-17T06:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="preRequisites()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="preRequisites" is-config="true" duration-ms="22119" started-at="2019-06-17T06:57:43Z" finished-at="2019-06-17T06:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisites -->
+        <test-method status="PASS" signature="isYashLogoDisplayedTest()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="isYashLogoDisplayedTest" duration-ms="109" started-at="2019-06-17T06:58:05Z" finished-at="2019-06-17T06:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isYashLogoDisplayedTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="quitBrowser" is-config="true" duration-ms="718" started-at="2019-06-17T06:58:05Z" finished-at="2019-06-17T06:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="preRequisites()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="preRequisites" is-config="true" duration-ms="22626" started-at="2019-06-17T06:58:06Z" finished-at="2019-06-17T06:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisites -->
+        <test-method status="PASS" signature="noOFSharedServicesTest()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="noOFSharedServicesTest" duration-ms="400" started-at="2019-06-17T06:58:28Z" finished-at="2019-06-17T06:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noOFSharedServicesTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="quitBrowser" is-config="true" duration-ms="733" started-at="2019-06-17T06:58:29Z" finished-at="2019-06-17T06:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="preRequisites()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="preRequisites" is-config="true" duration-ms="25192" started-at="2019-06-17T06:58:29Z" finished-at="2019-06-17T06:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisites -->
+        <test-method status="PASS" signature="userNameOnHomePageTest()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="userNameOnHomePageTest" duration-ms="66" started-at="2019-06-17T06:58:55Z" finished-at="2019-06-17T06:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameOnHomePageTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.YOU.qa.tests.HomePageTest@24fb6a80]" name="quitBrowser" is-config="true" duration-ms="703" started-at="2019-06-17T06:58:55Z" finished-at="2019-06-17T06:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.YOU.qa.tests.HomePageTest -->
+    </test> <!-- Tests on YOU portal -->
+  </suite> <!-- AllureReportInPOM -->
+</testng-results>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AllureReportInPOM">
+              <span class="suite-name border-passed">AllureReportInPOM</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AllureReportInPOM">
+                    <span>G:\Girish_Workspace\AllureReportInPOM\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AllureReportInPOM">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AllureReportInPOM">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AllureReportInPOM">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AllureReportInPOM">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AllureReportInPOM">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AllureReportInPOM">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AllureReportInPOM" class="hide-methods passed suite-AllureReportInPOM"> (hide)</a> <!-- hide-methods passed suite-AllureReportInPOM -->
+                      <a href="#" panel-name="suite-AllureReportInPOM" class="show-methods passed suite-AllureReportInPOM"> (show)</a> <!-- show-methods passed suite-AllureReportInPOM -->
+                    </span>
+                    <div class="method-list-content passed suite-AllureReportInPOM">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllureReportInPOM" title="com.YOU.qa.tests.HomePageTest" hash-for-method="isYOULogoDisplayedTest">isYOULogoDisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllureReportInPOM" title="com.YOU.qa.tests.HomePageTest" hash-for-method="isYashLogoDisplayedTest">isYashLogoDisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllureReportInPOM" title="com.YOU.qa.tests.HomePageTest" hash-for-method="noOFSharedServicesTest">noOFSharedServicesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllureReportInPOM" title="com.YOU.qa.tests.HomePageTest" hash-for-method="userNameOnHomePageTest">userNameOnHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AllureReportInPOM" title="com.YOU.qa.tests.InfogramPageTest" hash-for-method="userNameOnInfogramPageTest">userNameOnInfogramPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AllureReportInPOM -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AllureReportInPOM" class="panel AllureReportInPOM">
+          <div class="suite-AllureReportInPOM-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.YOU.qa.tests.InfogramPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userNameOnInfogramPageTest">
+                  </a> <!-- userNameOnInfogramPageTest -->
+                  <span class="method-name">userNameOnInfogramPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllureReportInPOM-class-passed -->
+          <div class="suite-AllureReportInPOM-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.YOU.qa.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isYOULogoDisplayedTest">
+                  </a> <!-- isYOULogoDisplayedTest -->
+                  <span class="method-name">isYOULogoDisplayedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isYashLogoDisplayedTest">
+                  </a> <!-- isYashLogoDisplayedTest -->
+                  <span class="method-name">isYashLogoDisplayedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noOFSharedServicesTest">
+                  </a> <!-- noOFSharedServicesTest -->
+                  <span class="method-name">noOFSharedServicesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userNameOnHomePageTest">
+                  </a> <!-- userNameOnHomePageTest -->
+                  <span class="method-name">userNameOnHomePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllureReportInPOM-class-passed -->
+        </div> <!-- panel AllureReportInPOM -->
+        <div panel-name="test-xml-AllureReportInPOM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\Girish_Workspace\AllureReportInPOM\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;AllureReportInPOM&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Tests on YOU portal&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.YOU.qa.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.YOU.qa.tests.InfogramPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tests on YOU portal --&gt;
+&lt;/suite&gt; &lt;!-- AllureReportInPOM --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AllureReportInPOM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AllureReportInPOM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tests on YOU portal (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AllureReportInPOM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AllureReportInPOM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AllureReportInPOM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AllureReportInPOM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AllureReportInPOM');
+function tableData_AllureReportInPOM() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'userNameOnInfogramPageTest')
+data.setCell(0, 2, 'com.YOU.qa.tests.InfogramPageTest')
+data.setCell(0, 3, 12584);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'noOFSharedServicesTest')
+data.setCell(1, 2, 'com.YOU.qa.tests.HomePageTest')
+data.setCell(1, 3, 400);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'isYOULogoDisplayedTest')
+data.setCell(2, 2, 'com.YOU.qa.tests.HomePageTest')
+data.setCell(2, 3, 122);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'isYashLogoDisplayedTest')
+data.setCell(3, 2, 'com.YOU.qa.tests.HomePageTest')
+data.setCell(3, 3, 109);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userNameOnHomePageTest')
+data.setCell(4, 2, 'com.YOU.qa.tests.HomePageTest')
+data.setCell(4, 3, 66);
+window.suiteTableData['AllureReportInPOM']= { tableData: data, tableDiv: 'times-div-AllureReportInPOM'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-AllureReportInPOM">
+              </div> <!-- times-div-AllureReportInPOM -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AllureReportInPOM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AllureReportInPOM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AllureReportInPOM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AllureReportInPOM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.YOU.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preRequisites</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isYOULogoDisplayedTest</span>
+                <span class="method-start">27848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">27986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preRequisites</span>
+                <span class="method-start">28734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isYashLogoDisplayedTest</span>
+                <span class="method-start">50855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">50995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preRequisites</span>
+                <span class="method-start">51713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">noOFSharedServicesTest</span>
+                <span class="method-start">74342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">74742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preRequisites</span>
+                <span class="method-start">75491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userNameOnHomePageTest</span>
+                <span class="method-start">100687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">100753 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.YOU.qa.tests.InfogramPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preRequisites</span>
+                <span class="method-start">101456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userNameOnInfogramPageTest</span>
+                <span class="method-start">132747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">145336 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
